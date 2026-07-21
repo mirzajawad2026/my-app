@@ -1,3 +1,7 @@
+require("dotenv").config()
+console.log(process.env.MONGODB_URI);
+
+
 const app = require("./src/app");
 const connectDB = require("./src/db/db");
 
